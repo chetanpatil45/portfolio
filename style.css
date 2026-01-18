@@ -276,7 +276,7 @@ section {
 .about .column.left img {
     width: 340px;
     max-width: 100%;
-    border-radius: 20px;
+    border-radius: 100%;
     border: 1px solid rgba(255, 255, 255, 0.08);
     background: #11162a;
     box-shadow:
