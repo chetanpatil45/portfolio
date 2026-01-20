@@ -7,7 +7,7 @@
     <title>Chetan Bachchhav | Portfolio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
@@ -24,13 +24,14 @@
             <div class="logo"><a href="#">Port<span>folio.</span></a></div>
             <ul class="menu">
 
-                <li><a href="#home" class="menu-btn">Home</a></li>
-                <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#certifications" class="menu-btn">Certifications</a></li>
-                <li><a href="#projects" class="menu-btn">Projects</a></li>
-                <li><a href="Chetan_cv.pdf" target="_blank" class="menu-btn">Resume</a></li>
-                <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="Chetan_cv.pdf" target="_blank">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <div class="close-btn">&times;</div>
             </ul>
             <div class="menu-btn"><i class="fas fa-bars"></i></div>
         </div>
@@ -203,6 +204,7 @@
             <h2 class="title">My Projects</h2>
             <div class="carousel owl-carousel">
 
+                <!-- EduFlow -->
                 <div class="card">
                     <div class="box">
                         <div class="text"> EduFlow - Student Management System</div>
@@ -211,9 +213,8 @@
                             <span class="tag fullstack">Full-Stack</span>
                         </div>
                         <p><strong>Tech Stack:</strong> Java, JSP/Servlet, Hibernate, PostgreSQL</p>
-                        <!-- <p>EduFlow is comprehensive software solution for Student management , developed in JSP, Servlet
-                            and Hibernate with PostgreSQL as database. Which have three modules - ADMIN, STUDENT,
-                            TEACHER</p> -->
+                        <p>Developed a SMS using JSP, Servlets, Hibernate, and PostgreSQL, featuring role-based access
+                            for Admin, Student, and Teacher modules.</p>
                         <div class="buttons-container">
                             <a href="https://github.com/chetanpatil45/EduFlow-SMS" target="_blank"
                                 class="project-link">View Code &rarr;</a>
@@ -225,26 +226,7 @@
                     </div>
                 </div>
 
-                <div class="card">
-                    <div class="box">
-                        <div class="text">Movie Recommendation System</div>
-                        <div class="project-tags">
-                            <span class="tag ml">ML</span>
-                            <span class="tag fullstack">Full-Stack</span>
-                        </div>
-
-                        <p><strong>Tech Stack:</strong> Python, Flask, Scikit-learn, OMDb API</p>
-                        <!-- <p> Built a content-based movie recommender using TF-IDF and Cosine Similarity to suggest Hollywood, Bollywood, and web-series titles. Designed a Flask web app with a responsive UI and integrated OMDb API for live posters and metadata.</p> -->
-                        <div class="buttons-container">
-                            <a href="https://github.com/Chetanpatil03/movie-recommendation-sys" target="_blank"
-                                class="project-link">View Code &rarr;</a>
-                        </div>
-                        <div class="preview-overlay">
-                            <i class="fas fa-eye"></i>
-                            <span>Click to Preview</span>
-                        </div>
-                    </div>
-                </div>
+                <!-- UserVault -->
                 <div class="card" data-images="projects\profile-manager\dashboard.png, 
                         projects\profile-manager\login.png, 
                         projects\profile-manager\profile.png">
@@ -255,8 +237,8 @@
                             <span class="tag fullstack">Full-Stack</span>
                         </div>
                         <p><strong>Tech Stack:</strong> Java, Spring-mvc, Spring-jdbc, MySQL.</p>
-                        <!-- <p> Built a Profile Management web application using spring-web-mvc and spring-jdbc modules,
-                            implemented real world password hashing and session management</p> -->
+                        <p> Built a profile management web application using Spring MVC and Spring JDBC, implementing
+                            secure password hashing and session-based authentication.</p> <!---->
                         <div class="buttons-container">
                             <a href="https://github.com/chetanpatil45/profile-manager" target="_blank"
                                 class="project-link">View Code &rarr;</a>
@@ -267,15 +249,40 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Movie Recommendation system. -->
                 <div class="card">
                     <div class="box">
-                        <div class="text">Prodinfo - CRUD Web Application</div>
+                        <div class="text">Movie Recommendation System</div>
+                        <div class="project-tags">
+                            <span class="tag ml">ML</span>
+                            <span class="tag fullstack">Full-Stack</span>
+                        </div>
+
+                        <p><strong>Tech Stack:</strong> Python, Flask, Scikit-learn, OMDb API</p>
+                        <p> Developed a content-based movie recommendation system using TF-IDF and cosine similarity to
+                            suggest movies across multiple genres and languages.</p>
+                        <div class="buttons-container">
+                            <a href="https://github.com/Chetanpatil03/movie-recommendation-sys" target="_blank"
+                                class="project-link">View Code &rarr;</a>
+                        </div>
+                        <div class="preview-overlay">
+                            <i class="fas fa-eye"></i>
+                            <span>Click to Preview</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ProdInfo -->
+                <div class="card">
+                    <div class="box">
+                        <div class="text">Prodinfo - Web Application</div>
                         <div class="project-tags">
                             <span class="tag fullstack">Full-Stack</span>
                         </div>
                         <p><strong>Tech Stack:</strong> Node.js, Express, MongoDB</p>
-                        <!-- <p>Developed a product management app with CRUD operations and deployed it on Render and
-                            Netlify. Gained experience with cloud deployment and MongoDB Atlas.</p> -->
+                        <p>Developed a product management application with full CRUD functionality using Node.js and
+                            MongoDB, and deployed it on cloud platforms.</p> <!-- -->
                         <div class="buttons-container">
                             <a href="https://github.com/chetanpatil45/Prodinfo" target="_blank"
                                 class="project-link">View Code &rarr;</a>
@@ -290,13 +297,14 @@
                 </div>
                 <div class="card">
                     <div class="box">
-                        <div class="text">User Management Web Application</div>
+                        <div class="text">Student Placement Prediction</div>
                         <div class="project-tags">
-                            <span class="tag backend">Backend</span>
+                            <span class="tag ml">ML</span>
+                            <span class="tag ml">Prediction model</span>
                         </div>
-                        <p><strong>Tech Stack:</strong> Java, JSP/Servlets, Hibernate</p>
-                        <!-- <p>Built a user management system with login, registration, and CRUD operations, utilizing
-                            session management and MVC architecture for secure and maintainable code.</p> -->
+                        <p><strong>Tech Stack:</strong> Python, ML, Scikit-learn, Flask</p>
+                        <p>Built a machine learning–based placement prediction system by comparing multiple algorithms,
+                            achieving approximately 89% prediction accuracy.</p>
                         <div class="buttons-container"><a href="https://github.com/chetanpatil45/JSPservlet-CRUD"
                                 target="_blank" class="project-link">View Code &rarr;</a>
                         </div>
@@ -313,8 +321,8 @@
                             <span class="tag backend">Backend</span>
                         </div>
                         <p><strong>Tech Stack:</strong> Java Servlets, JSP, OpenWeatherMap API</p>
-                        <!-- <p>Created a weather app with real-time data from OpenWeatherMap API, using Java Servlets for
-                            backend and dynamic rendering with HTML, CSS, and JavaScript.</p> -->
+                        <p>Created a weather app with real-time data from OpenWeatherMap API, using Java Servlets for
+                            backend and dynamic rendering with HTML, CSS, and JavaScript.</p> <!-- -->
                         <div class="buttons-container"><a href="https://github.com/chetanpatil45/weatherApplication"
                                 target="_blank" class="project-link">View Code &rarr;</a>
                         </div>
@@ -392,6 +400,35 @@
         </div>
     </div>
 
+
+
+    <script>
+        const menu = document.querySelector(".navbar .menu");
+        const menuBtn = document.querySelector(".menu-btn");
+        const closeBtn = document.querySelector(".close-btn");
+        const menuLinks = document.querySelectorAll(".navbar .menu li a");
+
+        /* Open menu */
+        menuBtn.onclick = () => {
+            menu.classList.add("active");
+            document.body.classList.add("menu-open");
+        };
+
+        /* Close menu (X button) */
+        closeBtn.onclick = () => {
+            menu.classList.remove("active");
+            document.body.classList.remove("menu-open");
+        };
+
+        /* ✅ CLOSE MENU WHEN A LINK IS CLICKED */
+        menuLinks.forEach(link => {
+            link.addEventListener("click", () => {
+                menu.classList.remove("active");
+                document.body.classList.remove("menu-open");
+            });
+        });
+
+    </script>
 
     <script src="script.js"></script>
 
