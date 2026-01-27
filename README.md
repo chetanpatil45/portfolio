@@ -68,11 +68,8 @@ Mobile navigation includes:
 ## 📄 Resume
 
 You can download my resume directly from the website:
-```
 
-Chetan_cv.pdf
-
-````
+**[Chetan_cv.pdf](https://chetanpatil45.github.io/portfolio/Chetan_cv.pdf)**
 
 ---
 
