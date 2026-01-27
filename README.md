@@ -18,7 +18,7 @@ It is designed to be modern, responsive, and easy to navigate across all devices
 ├── projects/               # Project screenshots / assets
 ├── Chetan_cv.pdf           # Resume
 ├── Profile_photo.png       # Profile image
-├── image.png               # Misc image asset
+├── image.png               # Favicon image
 ├── index.html              # Main HTML file
 ├── style.css               # Stylesheet
 ├── script.js               # JavaScript functionality
@@ -87,24 +87,6 @@ Chetan_cv.pdf
 
 ---
 
-## 🧑‍💻 How to Run Locally
-
-1. Clone this repository:
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-````
-
-2. Open the project folder:
-
-```bash
-cd your-repo-name
-```
-
-3. Open `index.html` in your browser
-   (or use Live Server in VS Code)
-
----
-
 ## 📌 Future Improvements
 
 * Add dark/light theme toggle
@@ -116,9 +98,9 @@ cd your-repo-name
 
 ## 🤝 Connect With Me
 
-* 💼 LinkedIn: *(Add link)*
+* 💼 LinkedIn: https://www.linkedin.com/in/chetan-bachchhav03/
 * 🐙 GitHub: https://github.com/chetanpatil45
-* 📧 Email: *(Add email)*
+* 📧 Email: bachchhavchetan45@gmail.com
 
 ---
 
