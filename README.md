@@ -7,7 +7,6 @@ It is designed to be modern, responsive, and easy to navigate across all devices
 
 ## 🚀 Live Preview
 🔗 **[Visit Portfolio](https://chetanpatil45.github.io/portfolio)**  
-*(Add your GitHub Pages / Netlify / Vercel link here)*
 
 ---
 
@@ -118,7 +117,7 @@ cd your-repo-name
 ## 🤝 Connect With Me
 
 * 💼 LinkedIn: *(Add link)*
-* 🐙 GitHub: *(Add link)*
+* 🐙 GitHub: https://github.com/chetanpatil45
 * 📧 Email: *(Add email)*
 
 ---
@@ -127,7 +126,4 @@ cd your-repo-name
 
 Inspired by modern portfolio UI trends and built with a focus on clean design and usability.
 
----
-
-### © 2025 Chetan Bachchhav
 
