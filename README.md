@@ -1,4 +1,3 @@
-```md
 # 🌐 Chetan Bachchhav – Portfolio Website
 
 This is my personal portfolio website showcasing my skills, projects, certifications, and contact details.  
@@ -14,7 +13,7 @@ It is designed to be modern, responsive, and easy to navigate across all devices
 
 ## 📂 Project Structure
 
-``
+```
 ├── .github/                # GitHub workflows or configs
 ├── certificates/           # Certification images
 ├── projects/               # Project screenshots / assets
