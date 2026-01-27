@@ -14,8 +14,7 @@ It is designed to be modern, responsive, and easy to navigate across all devices
 
 ## 📂 Project Structure
 
-```
-
+``
 ├── .github/                # GitHub workflows or configs
 ├── certificates/           # Certification images
 ├── projects/               # Project screenshots / assets
