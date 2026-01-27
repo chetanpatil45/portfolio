@@ -1,8 +1,3 @@
-Nice, this is a clean structure 👍
-Here’s a **professional, simple, and recruiter-friendly `README.md`** you can directly copy-paste. It matches your portfolio and folder layout exactly.
-
----
-
 ```md
 # 🌐 Chetan Bachchhav – Portfolio Website
 
@@ -137,17 +132,4 @@ Inspired by modern portfolio UI trends and built with a focus on clean design an
 ---
 
 ### © 2025 Chetan Bachchhav
-
-All rights reserved.
-
-```
-
----
-
-### ✅ Want a **shorter README** for recruiters?
-### ✅ Want a **GitHub Pages deployment section added**?
-### ✅ Want emojis removed for corporate tone?
-
-Tell me and I’ll customize it exactly for you 👌
-```
 
