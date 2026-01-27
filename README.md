@@ -6,7 +6,7 @@ It is designed to be modern, responsive, and easy to navigate across all devices
 ---
 
 ## 🚀 Live Preview
-🔗 **[Visit Portfolio](#)**  
+🔗 **[Visit Portfolio](https://chetanpatil45.github.io/portfolio)**  
 *(Add your GitHub Pages / Netlify / Vercel link here)*
 
 ---
