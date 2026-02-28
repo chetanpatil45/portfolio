@@ -34,6 +34,7 @@ It is designed to be modern, responsive, and easy to navigate across all devices
 - **CSS3** – Styling, animations, responsive design  
 - **JavaScript (Vanilla JS)** – Interactivity & DOM manipulation  
 - **Font Awesome** – Icons  
+- **DEVICON Awesome** – Tech/Skills Icons  
 - **Google Fonts** – Typography  
 
 ---
@@ -48,20 +49,6 @@ It is designed to be modern, responsive, and easy to navigate across all devices
 - Project & certification sections
 - Downloadable resume
 - Clean and organized code structure
-
----
-
-## 📱 Responsive Design
-
-The website adapts smoothly to:
-- 📱 Mobile devices  
-- 📟 Tablets  
-- 💻 Desktop screens  
-
-Mobile navigation includes:
-- Hamburger menu
-- Auto close on link click
-- Close (×) button support
 
 ---
 
